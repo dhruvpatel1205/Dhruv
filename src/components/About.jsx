@@ -62,9 +62,9 @@ const AboutPage = () => {
       id="about"
       className="bg-black text-white flex items-center min-h-screen py-16"
     >
-      <div className="max-w-5xl mx-auto px-8 sm:px-8 w-full">
+      <div className="max-w-5xl mx-auto px-4 sm:px-8 w-full">
         {/* Left side with image */}
-        <div className="text-left mb-4">
+        <div className="mb-4">
           <img
             src={profilePictures[currentImageIndex]}
             alt="Profile"
@@ -73,7 +73,7 @@ const AboutPage = () => {
         </div>
 
         {/* Right side with text */}
-        <div className="text-left mb-4">
+        <div className="text-left mb-4 px-auto">
           <p className="text-lg mb-2">I'm Sarvagna Kadiya</p>
           <p className="text-gray-400">
             Hello, I'm Sarvagna Kadiya, a passionate full stack blockchain
