@@ -1,0 +1,6 @@
+[
+  { "name": "C", "proficiency": 70 },
+  { "name": "C++", "proficiency": 80 },
+  { "name": "Java", "proficiency": 90 },
+  { "name": "Python", "proficiency": 85 }
+]

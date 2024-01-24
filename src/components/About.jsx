@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import profilePicture1 from "../assets/mimojis/1.png";
 import profilePicture2 from "../assets/mimojis/2.png";
-// import profilePicture3 from "../assets/mimojis/3.png";
-import profilePicture4 from "../assets/mimojis/4.png";
-import profilePicture5 from "../assets/mimojis/5.png";
-import profilePicture6 from "../assets/mimojis/6.png";
-import profilePicture7 from "../assets/mimojis/7.png";
-import profilePicture8 from "../assets/mimojis/8.png";
-import profilePicture9 from "../assets/mimojis/9.png";
+import profilePicture3 from "../assets/mimojis/4.png";
+import profilePicture4 from "../assets/mimojis/5.png";
+import profilePicture5 from "../assets/mimojis/6.png";
+import profilePicture6 from "../assets/mimojis/7.png";
+import profilePicture7 from "../assets/mimojis/8.png";
+import profilePicture8 from "../assets/mimojis/9.png";
 import facebook from "../assets/socials/icons8-facebook-480.png";
 import github from "../assets/socials/icons8-github-480.png";
 import instagram from "../assets/socials/icons8-instagram-480.png";
@@ -16,18 +15,17 @@ import reddit from "../assets/socials/icons8-reddit-480.png";
 import stackOverflow from "../assets/socials/icons8-stack-overflow-480.png";
 import telegram from "../assets/socials/icons8-telegram-app-480.png";
 import twitter from "../assets/socials/icons8-twitterx-480-2.png";
-import whatsapp from "../assets/socials/icons8-whatsapp-480.png";
 import discord from "../assets/socials/icons8-discord-480.png";
 
 const profilePictures = [
   profilePicture1,
   profilePicture2,
+  profilePicture3,
   profilePicture4,
   profilePicture5,
   profilePicture6,
   profilePicture7,
   profilePicture8,
-  profilePicture9,
 ];
 
 const socialIcons = {
@@ -39,7 +37,6 @@ const socialIcons = {
   stackOverflow,
   telegram,
   twitter,
-  whatsapp,
   discord,
 };
 
@@ -71,7 +68,7 @@ const AboutPage = () => {
           <img
             src={profilePictures[currentImageIndex]}
             alt="Profile"
-            className="h-44 w-44 mr-4 transition-opacity duration-1000 hover:opacity-100 rounded-full"
+            className="h-44 w-44 mr-4 transition-opacity duration-1000 hover:opacity-100"
           />
         </div>
 
@@ -89,46 +86,13 @@ const AboutPage = () => {
 
         {/* Social icons */}
         <div className="flex items-center">
-          <button
-            className="w-7 h-7 bg-center bg-cover rounded-full mr-2"
-            style={{ backgroundImage: `url(${socialIcons.twitter})` }}
-          ></button>
-          <button
-            className="w-7 h-7 bg-center bg-cover rounded-full mr-2"
-            style={{ backgroundImage: `url(${socialIcons.linkedIn})` }}
-          ></button>
-          <button
-            className="w-7 h-7 bg-center  bg-cover mr-2"
-            style={{ backgroundImage: `url(${socialIcons.github})` }}
-          ></button>
-          <button
-            className="w-7 h-7 bg-center  bg-cover mr-2"
-            style={{ backgroundImage: `url(${socialIcons.discord})` }}
-          ></button>
-          <button
-            className="w-7 h-7 bg-center  bg-cover mr-2"
-            style={{ backgroundImage: `url(${socialIcons.facebook})` }}
-          ></button>
-          <button
-            className="w-7 h-7 bg-center  bg-cover mr-2"
-            style={{ backgroundImage: `url(${socialIcons.reddit})` }}
-          ></button>
-          <button
-            className="w-7 h-7 bg-center  bg-cover mr-2"
-            style={{ backgroundImage: `url(${socialIcons.stackOverflow})` }}
-          ></button>
-          <button
-            className="w-7 h-7 bg-center  bg-cover mr-2"
-            style={{ backgroundImage: `url(${socialIcons.whatsapp})` }}
-          ></button>
-          <button
-            className="w-7 h-7 bg-center  bg-cover mr-2"
-            style={{ backgroundImage: `url(${socialIcons.telegram})` }}
-          ></button>
-          <button
-            className="w-7 h-7 bg-center  bg-cover mr-2"
-            style={{ backgroundImage: `url(${socialIcons.instagram})` }}
-          ></button>
+          {Object.entries(socialIcons).map(([platform, icon]) => (
+            <button
+              key={platform}
+              className="w-7 h-7 bg-center bg-cover mr-2 transform transition-transform hover:rotate-custom9"
+              style={{ backgroundImage: `url(${icon})` }}
+            ></button>
+          ))}
         </div>
       </div>
     </div>
