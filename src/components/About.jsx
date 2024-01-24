@@ -60,9 +60,9 @@ const AboutPage = () => {
   return (
     <div
       id="about"
-      className="bg-black text-white flex items-center min-h-[calc(100vh-64px)] mt-16"
+      className="bg-black text-white flex items-center min-h-screen py-16"
     >
-      <div className="max-w-5xl mx-auto px-8">
+      <div className="max-w-5xl mx-auto px-8 sm:px-8 w-full">
         {/* Left side with image */}
         <div className="text-left mb-4">
           <img
@@ -85,7 +85,7 @@ const AboutPage = () => {
         </div>
 
         {/* Social icons */}
-        <div className="flex items-center">
+        <div className="flex justify-center sm:justify-start items-center mt-4">
           {Object.entries(socialIcons).map(([platform, icon]) => (
             <button
               key={platform}
