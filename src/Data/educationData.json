@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "cource": "Computer Engineering (Artificial intelligence & data science)",
+    "courceType": "Masters of Engineering (ME)",
+    "institution": "Graduate School of Engineering and Technology GTU",
+    "location": "Chandkheda, Ahmedabad",
+    "startDate": "Aug 2023",
+    "endDate": "Present",
+    "grade": "_.__ CGPA"
+  },
+  {
+    "id": 2,
+    "cource": "Computer Engineering",
+    "courceType": "Bechelor of Engineering (BE)",
+    "institution": "SAL Engineering And Technical Institute",
+    "location": "Sola, Ahmedabad",
+    "startDate": "Aug 2019",
+    "endDate": "May 2022",
+    "grade": "8.23 CGPA"
+  },
+  {
+    "id": 1,
+    "cource": "Computer Engineering",
+    "courceType": "Diploma",
+    "institution": "R.C. Technical Institute",
+    "location": "Sola, Ahmedabad",
+    "startDate": "Jan 2020",
+    "endDate": "Present",
+    "grade": "8.9 CGPA"
+  },
+  {
+    "id": 1,
+    "cource": "Computer Engineering (Artificial intelligence & data science)",
+    "courceType": "Masters of Engineering (ME)",
+    "institution": "Graduate School of Engineering and Technology GTU",
+    "location": "Chandkheda, Ahmedabad",
+    "startDate": "Jan 2020",
+    "endDate": "Present",
+    "grade": "8.9 CGPA"
+  }
+]

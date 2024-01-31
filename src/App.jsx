@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Education from "./components/Education";
+import Experience from "./components/Experience";
 // const config = createConfig(
 //   getDefaultConfig({
 //     // Required API Keys
@@ -29,6 +30,7 @@ function App() {
       <Projects />
       <Skills />
       <Education />
+      <Experience />
       <Footer />
     </>
   );

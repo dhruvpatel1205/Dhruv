@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="bg-red-300 text-white min-h-[calc(100vh-64px)] flex items-center"
+      className="bg-black text-white min-h-[calc(100vh-64px)] flex items-center"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-8 py-12">
         <h1 className="text-4xl font-bold mb-6">Projects</h1>

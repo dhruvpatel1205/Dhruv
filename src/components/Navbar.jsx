@@ -10,6 +10,7 @@ const navigation = [
   { name: "Projects", href: "projects", current: false },
   { name: "Skills", href: "skills", current: false },
   { name: "Education", href: "education", current: false },
+  { name: "Experience", href: "experience", current: false },
 ];
 
 function classNames(...classes) {
