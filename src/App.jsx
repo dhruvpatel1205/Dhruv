@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 // const config = createConfig(
 //   getDefaultConfig({
 //     // Required API Keys
@@ -32,6 +33,7 @@ function App() {
       <Education />
       <Experience />
       <Footer />
+      <SpeedInsights />
     </>
   );
 }

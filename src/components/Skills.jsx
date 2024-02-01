@@ -23,9 +23,14 @@ const Skills = () => {
           {skillsData.map((language) => (
             <div
               key={language.name}
-              className="p-4 border rounded-md transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-green-700 hover:text-yellow-300 "
+              className="px-4 py-1  rounded-md transition-transform transform hover:scale-105 hover:shadow-lg"
             >
-              <p className="text-lg font-semibold">{language.name}</p>
+              <div className="group inline-block">
+                <p className="text-lg font-semibold relative">
+                  {language.name}
+                  <span className="absolute bottom-0 left-0 bg-green-800 h-0.5 w-0 transition-all group-hover:w-full"></span>
+                </p>
+              </div>
             </div>
           ))}
         </div>
