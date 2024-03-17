@@ -16,6 +16,7 @@ import stackOverflow from "../assets/socials/icons8-stack-overflow-480.png";
 import telegram from "../assets/socials/icons8-telegram-app-480.png";
 import twitter from "../assets/socials/icons8-twitterx-480-2.png";
 import discord from "../assets/socials/icons8-discord-480.png";
+// import socialLinks from "../data/socialLinks.json";
 
 const profilePictures = [
   profilePicture1,
@@ -28,21 +29,64 @@ const profilePictures = [
   profilePicture8,
 ];
 
-const socialIcons = {
-  facebook,
-  github,
-  instagram,
-  linkedIn,
-  reddit,
-  stackOverflow,
-  telegram,
-  twitter,
-  discord,
+// const socialIcons = {
+//   facebook,
+//   github,
+//   instagram,
+//   linkedIn,
+//   reddit,
+//   stackOverflow,
+//   telegram,
+//   twitter,
+//   discord,
+// };
+
+const socialLinks = {
+  facebook: {
+    icon: facebook,
+    url: "https://www.facebook.com/sarvagnakadiya",
+  },
+  github: {
+    icon: github,
+    url: "https://github.com/sarvagnakadiya",
+  },
+  instagram: {
+    icon: instagram,
+    url: "https://www.instagram.com/sarvagna13",
+  },
+  linkedIn: {
+    icon: linkedIn,
+    url: "https://www.linkedin.com/in/sarvagnakadiya",
+  },
+  reddit: {
+    icon: reddit,
+    url: "https://www.reddit.com/user/sarvagnakadiya",
+  },
+  stackOverflow: {
+    icon: stackOverflow,
+    url: "https://stackoverflow.com/users/21518106/sarvagna",
+  },
+  telegram: {
+    icon: telegram,
+    url: "https://t.me/squirtle_snap",
+  },
+  twitter: {
+    icon: twitter,
+    url: "https://twitter.com/sarvagnakadiya",
+  },
+  discord: {
+    icon: discord,
+    url: "https://discordapp.com/users/.0xdab",
+  },
 };
 
 const AboutPage = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  //   console.log(socialLinks);
 
+  const handleRedirect = (url) => {
+    window.open(url, "_blank");
+  };
   useEffect(() => {
     const intervalId = setInterval(() => {
       // Update the image index in a cyclic manner
@@ -86,11 +130,12 @@ const AboutPage = () => {
 
         {/* Social icons */}
         <div className="flex justify-center sm:justify-start items-center mt-4">
-          {Object.entries(socialIcons).map(([platform, icon]) => (
+          {Object.entries(socialLinks).map(([platform, { icon, url }]) => (
             <button
               key={platform}
               className="w-7 h-7 bg-center bg-cover mr-2 transform transition-transform hover:rotate-custom9"
               style={{ backgroundImage: `url(${icon})` }}
+              onClick={() => handleRedirect(url)}
             ></button>
           ))}
         </div>
