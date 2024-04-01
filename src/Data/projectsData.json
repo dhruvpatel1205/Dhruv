@@ -2,9 +2,10 @@
   {
     "id": 1,
     "title": "FluidPay",
-    "description": "FluidPay is a blockchain-powered payment system that utilizes the Superfluid protocol to simplify transactions. By generating QR codes for initiating and terminating payment streams, businesses can effortlessly enable users to pay on-the-go in tokens. With automatic stream cessation upon transaction completion, FluidPay eliminates the need for time tracking, enhancing user convenience and optimizing payment workflows for businesses.",
+    "description": "FluidPay is a blockchain-powered payment system that utilizes the Superfluid protocol to simplify transactions. By generating QR codes for initiating and terminating payment streams, businesses can effortlessly enable users to pay on-the-go in tokens. With automatic stream cessation upon transaction completion, FluidPay eliminates the need for time tracking, enhancing user convenience and optimizing payment workflows for businesses.FluidPay is a blockchain-powered payment system that utilizes the Superfluid protocol to simplify transactions. By generating QR codes for initiating and terminating payment streams, businesses can effortlessly enable users to pay on-the-go in tokens. With automatic stream cessation upon transaction completion, FluidPay eliminates the need for time tracking, enhancing user convenience and optimizing payment workflows for businesses",
     "category": "Blockchain",
-    "githubLink": "https://github.com/sarvagnakadiya/FluidPay"
+    "githubLink": "https://github.com/sarvagnakadiya/FluidPay",
+    "youtubeId": "R-_iqhDMD48"
   },
   {
     "id": 2,
