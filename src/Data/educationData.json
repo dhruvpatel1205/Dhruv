@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "cource": "Computer Engineering (Artificial intelligence & data science)",
-    "courceType": "Masters of Engineering (ME)",
-    "institution": "Graduate School of Engineering and Technology GTU",
-    "location": "Chandkheda, Ahmedabad",
-    "startDate": "Aug 2023",
-    "endDate": "Present",
-    "grade": "_.__ CGPA"
+    "cource": "Computer Science",
+    "courceType": "Masters of Sciecne (MS)",
+    "institution": "California State Polytechnic University Pomona",
+    "location": "Pomona, CA",
+    "startDate": "August 2022",
+    "endDate": "December 2024(Expected)",
+    "grade": "3.6/4.0 CGPA"
   },
   {
     "id": 2,
     "cource": "Computer Engineering",
     "courceType": "Bechelor of Engineering (BE)",
-    "institution": "SAL Engineering And Technical Institute",
-    "location": "Sola, Ahmedabad",
-    "startDate": "Aug 2019",
+    "institution": "Gujarat Technological University",
+    "location": "India",
+    "startDate": "August 2019",
     "endDate": "May 2022",
-    "grade": "8.23 CGPA"
+    "grade": "3.3/4.0 CGPA"
   },
   {
     "id": 3,
     "cource": "Computer Engineering",
     "courceType": "Diploma",
-    "institution": "R.C. Technical Institute",
-    "location": "Sola, Ahmedabad",
-    "startDate": "Aug 2016",
-    "endDate": "April 2019",
-    "grade": "8.19 CGPA"
+    "institution": "Gujarat Technological University",
+    "location": "India",
+    "startDate": "August 2016",
+    "endDate": "May 2019",
+    "grade": "3.4/4.0 CGPA"
   }
 ]

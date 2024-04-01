@@ -1,20 +1,29 @@
 [
   {
     "id": 1,
-    "title": "Lamprostech PVT LTD",
-    "company": "Tech Co.",
-    "location": "City, Country",
-    "startDate": "Jan 2020",
-    "endDate": "Present",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit."
+    "title": "Software Engineer Intern",
+    "company": "Bhaskaracharya Institute For Space Applications and Geo-Informatics",
+    "location": "Gandhinagar, India",
+    "startDate": "January 2022",
+    "endDate": "May 2022",
+    "description": "Played a key role in data architecture design, enhancing project outcomes.\n Collaborated with a cross-functional team to complete the software development phase through SDLC.\n Utilized Regex for data analysis, boosting data processing efficiency."
   },
   {
-    "id": 1,
-    "title": "Full Stack Developer",
-    "company": "Tech Co.",
-    "location": "City, Country",
-    "startDate": "Jan 2020",
-    "endDate": "Present",
+    "id": 2,
+    "title": "Junior Software Developer",
+    "company": "Kretoss Technology",
+    "location": "Ahmedabad, India",
+    "startDate": "June 2021",
+    "endDate": "December 2021",
+    "description": "Analyzed system requirements, leading to the development and deployment of a scalable java app with spring. Pioneered the use of ERDs and class diagram to streamline and improve system Architecture. Crafted precise wireframes and process models, ensuring clarity and coherence in system design. Hosted apps on AWS EC2 and utilized RDS instance and Postgres for seamless database hosting."
+  },
+  {
+    "id": 3,
+    "title": "Android Developer Intern",
+    "company": "BrainyBeam Technologies Pvt. Ltd.",
+    "location": "Ahmedabad, India",
+    "startDate": "April 2021",
+    "endDate": "June 2021",
     "description": "education features and improved overall system performance."
   }
 ]

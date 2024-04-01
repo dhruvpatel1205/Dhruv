@@ -1,14 +1,14 @@
 [
-  { "name": "Solidity", "proficiency": 70 },
-  { "name": "Rust", "proficiency": 70 },
+  { "name": "Java", "proficiency": 70 },
+  { "name": "Python", "proficiency": 70 },
   { "name": "Javascript", "proficiency": 80 },
-  { "name": "Typescript", "proficiency": 90 },
-  { "name": "Python", "proficiency": 85 },
-  { "name": "flask APIs", "proficiency": 85 },
-  { "name": "React.js", "proficiency": 85 },
-  { "name": "Next.js", "proficiency": 85 },
-  { "name": "Vite.js", "proficiency": 85 },
-  { "name": "Node.js", "proficiency": 85 },
-  { "name": "Express APIs", "proficiency": 85 },
-  { "name": "Mongo DB", "proficiency": 85 }
+  { "name": "HTML 5", "proficiency": 90 },
+  { "name": "CSS", "proficiency": 85 },
+  { "name": "Flask", "proficiency": 85 },
+  { "name": "Hibernate", "proficiency": 85 },
+  { "name": "AWS (EC2,S3,RDS)", "proficiency": 85 },
+  { "name": "Salesforce Administartor", "proficiency": 85 },
+  { "name": "SQL", "proficiency": 85 },
+  { "name": "HQL", "proficiency": 85 },
+  { "name": "REST & SOAP API", "proficiency": 85 }
 ]
