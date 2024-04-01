@@ -7,7 +7,7 @@ import profilePicture5 from "../assets/mimojis/6.png";
 import profilePicture6 from "../assets/mimojis/7.png";
 import profilePicture7 from "../assets/mimojis/8.png";
 import profilePicture8 from "../assets/mimojis/9.png";
-import facebook from "../assets/socials/icons8-facebook-480.png";
+//import facebook from "../assets/socials/icons8-facebook-480.png";
 import github from "../assets/socials/icons8-github-480.png";
 import instagram from "../assets/socials/icons8-instagram-480.png";
 import linkedIn from "../assets/socials/icons8-linkedin-480.png";
@@ -31,9 +31,9 @@ const profilePictures = [
 
 // const socialIcons = {
 //   facebook,
+//   linkedIn,
 //   github,
 //   instagram,
-//   linkedIn,
 //   reddit,
 //   stackOverflow,
 //   telegram,
@@ -42,41 +42,41 @@ const profilePictures = [
 // };
 
 const socialLinks = {
-  facebook: {
+ /* facebook: {
     icon: facebook,
     url: "https://www.facebook.com/sarvagnakadiya",
+  },*/
+  linkedIn: {
+    icon: linkedIn,
+    url: "https://www.linkedin.com/in/dhruv-j-patel1205/",
   },
   github: {
     icon: github,
-    url: "https://github.com/sarvagnakadiya",
+    url: "https://github.com/dhruvpatel1205",
   },
   instagram: {
     icon: instagram,
-    url: "https://www.instagram.com/sarvagna13",
-  },
-  linkedIn: {
-    icon: linkedIn,
-    url: "https://www.linkedin.com/in/sarvagnakadiya",
+    url: "https://www.instagram.com/dhruv.__.patel/",
   },
   reddit: {
     icon: reddit,
-    url: "https://www.reddit.com/user/sarvagnakadiya",
+    url: "https://www.reddit.com/user/dhruvolt/",
   },
   stackOverflow: {
     icon: stackOverflow,
-    url: "https://stackoverflow.com/users/21518106/sarvagna",
+    url: "https://stackoverflow.com/users/23941287/dhruv-patel",
   },
   telegram: {
     icon: telegram,
-    url: "https://t.me/squirtle_snap",
+    url: "https://t.me/+15513449034",
   },
   twitter: {
     icon: twitter,
-    url: "https://twitter.com/sarvagnakadiya",
+    url: "https://twitter.com/DHRUVJ12P",
   },
   discord: {
     icon: discord,
-    url: "https://discordapp.com/users/.0xdab",
+    url: "https://discordapp.com/users/volt_012",
   },
 };
 
@@ -118,18 +118,18 @@ const AboutPage = () => {
 
         {/* Right side with text */}
         <div className="text-left mb-4 px-auto">
-          <p className="text-lg mb-2">I'm Sarvagna Kadiya</p>
-          <p className="text-gray-400">
-            Hello, I'm Sarvagna Kadiya, a passionate full stack blockchain
-            developer. I specialize in creating decentralized applications and
-            smart contracts. With expertise in both front-end and back-end
-            technologies, I bring innovative solutions to the world of
-            blockchain development.
+          <p className="text-lg mb-2 pl-4">I'm Dhruv Patel</p>
+          <p className="text-gray-400 pl-4">
+            Hi, I am a Graduate computer science student with 1+ years of professional 
+            experience developing cloud-based applications using Java and AWS, Python. 
+            Expertise in database management, Back-end & Front-end technologies and web development (HTML 5, CSS, JavaScript). 
+            Experience building software solutions in a collaborative environment with version control.
+
           </p>
         </div>
 
         {/* Social icons */}
-        <div className="flex justify-center sm:justify-start items-center mt-4">
+        <div className="flex justify-center sm:justify-start items-center mt-4 pl-3">
           {Object.entries(socialLinks).map(([platform, { icon, url }]) => (
             <button
               key={platform}
