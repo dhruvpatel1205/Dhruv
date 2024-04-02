@@ -49,7 +49,7 @@ const ExampleButton = () => {
       {({ isConnected, show, truncatedAddress, ensName }) => {
         return (
           <StyledButton onClick={show}>
-            {isConnected ? ensName ?? truncatedAddress : "Connect Wallet"}
+            {isConnected ? ensName ?? truncatedAddress : "Resume Download ⬇️"}
           </StyledButton>
         );
       }}
