@@ -26,26 +26,5 @@
     "description": "Developed a tool in Python to mitigate active DOS attacks using Regular Expression (regex). Optimized project deliverables by refining data models, improving accuracy and efficiency. Utilized Socket Programming API for tracking incoming packets, monitoring network traffic at a 95% success rate.",
     "category": "Python",
     "githubLink": "https://github.com/yourusername/project2"
-  },
-  {
-    "id": 5,
-    "title": "Project Title 2",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
-    "category": "AI",
-    "githubLink": "https://github.com/yourusername/project2"
-  },
-  {
-    "id": 6,
-    "title": "Project Title 2",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
-    "category": "AI",
-    "githubLink": "https://github.com/yourusername/project2"
-  },
-  {
-    "id": 7,
-    "title": "Project Title 2",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores et, voluptatibus maiores nulla aspernatur soluta provident, unde culpa placeat distinctio. Placeat quod ducimus facere neque necessitatibus aliquam repellendus impedit.",
-    "category": "AI",
-    "githubLink": "https://github.com/yourusername/project2"
   }
 ]
