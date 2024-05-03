@@ -102,8 +102,7 @@ export default function Navbar() {
             href="https://wise-moose-hfc1kf-dev-ed.trailblaze.my.salesforce.com/sfc/p/bm0000008Dkr/a/bm0000000R3R/I3gdQBdyqCQV7AmWFgugyx56.RsYCJAkr8tGXnw_3y4"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-teal-500 hover:bg-teal-600 text-gray-800 font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
-          >
+            className="bg-teal-500 hover:bg-teal-600 text-gray-800 font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline">
             Download Resume ⬇️
           </a>
         </div>
