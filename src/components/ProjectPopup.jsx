@@ -87,7 +87,7 @@ const ProjectPopup = ({ project, onClose }) => {
           ) : null}
           <a
             href={project.githubLink}
-            className="block bg-gray-800 text-white py-2 px-4 rounded-lg text-center hover:bg-gray-700"
+            className="block bg-gray-800 text-white py-2 px-4 rounded-lg text-center hover:bg-gray-700 position:absolute margin-left:auto"
           >
             Visit GitHub
           </a>
