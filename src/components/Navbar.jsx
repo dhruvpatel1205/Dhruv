@@ -99,7 +99,7 @@ export default function Navbar() {
               </div>
               <div className="flex justify-center lg:justify-end">
           <a
-            href="https://wise-moose-hfc1kf-dev-ed.trailblaze.my.salesforce.com/sfc/p/bm0000008Dkr/a/bm0000000R3R/I3gdQBdyqCQV7AmWFgugyx56.RsYCJAkr8tGXnw_3y4"
+            href="https://wise-moose-hfc1kf-dev-ed.trailblaze.my.salesforce.com/sfc/p/bm0000008Dkr/a/bm0000000USj/mJ.lQHMoAknNut1nuDqQoCLZN.Ip6SG5zrL3cyIlUM0"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline">
