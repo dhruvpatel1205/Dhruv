@@ -32,6 +32,6 @@
     "title": "Investigation tool using regex",
     "description": "Developed a tool in Python to mitigate active DOS attacks using Regular Expression (regex). Optimized project deliverables by refining data models, improving accuracy and efficiency. Utilized Socket Programming API for tracking incoming packets, monitoring network traffic at a 95% success rate.",
     "category": "Python",
-    "githubLink": "https://github.com/yourusername/project2"
+    "githubLink": "https://github.com/dhruvpatel1205/Investigation-tool-using-regex"
   }
 ]
