@@ -23,7 +23,7 @@
   {
     "id": 4,
     "title": "JavaFeast: order management application",
-    "description": "Designed Java applications for dining management, order handling, and generating receipts. Enhanced database performance by 20% through integration of Hibernate ORM with Postgres in MVC model. Efficiently manipulated complex data schemas using DML statements for data addition, update & deletion. Achieved 95% accuracy in CRUD operation through the implementation of Java Persistence API (JPA) mechanism.",
+    "description": "Designed Java applications for dining management, order handling, and generating receipts. Simplified deployment process Hibernate ORM and Apache Tomcat with Postgres in MVC model. Efficiently manipulated complex data schemas using DML statements for data addition, update & deletion. Achieved 95% accuracy in CRUD operation through the implementation of Java Persistence API (JPA) mechanism. Implemented JUNIT test cases covering approximately 30% of the code.",
     "category": "Java, Hibernate",
     "githubLink": "https://github.com/dhruvpatel1205/JavaFeast-Order-Management-Application"
   },
