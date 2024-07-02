@@ -6,7 +6,7 @@
     "location": "Gandhinagar, India",
     "startDate": "January 2022",
     "endDate": "May 2022",
-    "description": "Engineered optimized data architecture and collaborated with cross-functional team to complete software development phase through SDLC, achieving bug reduction and 15% increase in overall project quality. Initiated Regex for data analysis, boosting data processing efficiency and, delivered bi-weekly sprints ahead of schedule in a collaborative Agile environment."
+    "description": "Optimized data architecture and improved project quality by 15%. Debugged 45% of software issues by collaborating with cross-functional teams during the SDLC. Delivered bi-weekly sprints 2 days ahead of schedule and increasing 20% efficiency in an Agile (Scrum) environment."
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "location": "Ahmedabad, India",
     "startDate": "June 2021",
     "endDate": "December 2021",
-    "description": "Implemented a scalable java application with spring framework and analyzing system requirements to align with business objectives. Crafted wireframes, DFD’s and process models, ensuring clarity and coherence in system design and hosted apps on AWS EC2 and serviced RDS instance and Postgres for seamless database hosting."
+    "description": "• Developed a scalable application using java, Spring boot framework and AWS. Created detailed wireframes, DFD’s, and process models for clear system design system design. Deployed application on AWS EC2 and integrated RDS instance and Postgres for seamless database hosting."
   },
   {
     "id": 3,

@@ -2,28 +2,28 @@
   {
     "id": 1,
     "title": "Fake News Analysis using Machine Learning Algorithms",
-    "description": "Trained different types of models – KNN, Decision Tree, Random Forest, Gradient Boosting and Passive Aggression algorithm on a balanced class dataset and achieved highest accuracy of 94.47%. Performed preprocessing, data cleaning and training of model which has 50.1% of Real and 49.9% of Fake news article in data.",
+    "description": "Achieved 94.47% of accuracy with models like KNN, Decision Tree, Random Forest, Gradient Boosting and Passive Aggression on a balanced dataset. Preprocessed and trained on a dataset with equal distribution of a Real (50.1%) and Fake (49.9%) news article. Utilized pandas, NumPy & sci-kit learn libraries for data visualization, preparation, and training.",
     "category": "Python",
     "githubLink": "https://github.com/dhruvpatel1205/FakeNewsAnalysis"
   },
   {
     "id": 2,
     "title": "Performance Evaluation of 5Greplay on 5G network",
-    "description": "Pioneered 5G security research by executing a replay attack with help of fuzzers, enhancing software verification. Collected and utilized pcap files via Wireshark on a live 5G network system.Conducted rigorous test on multiple fuzzers on open5GS and Free5GC, ensuring system against unexpected inputs.",
+    "description": "Executed replay attacks using fuzzers to improve software verification for 5G security research. Analyzed pcap files using Wireshark on a live 5G network core protocol. Performed rigorous Test using multiple fuzzers on Open5GS and Free5GC to check system against unexpected inputs.",
     "category": "MS Project, 5G Security",
     "githubLink": "https://github.com/Montimage/5GReplay/releases"
   },
   {
     "id": 3,
     "title": "Tarot- Weaving Stories",
-    "description": "Created an interactive storytelling using Flask, enhancing user engagement with tarot-based narratives. Generated accurate fortune-telling results from a JSON Schema, achieving 80% similarity to the original paper. Introduced features to draw 1 or 3 tarot cards for personalized and humorous readings, improving user experience.",
+    "description": "• Developed a RESTful API with Flask for interactive tarot-based storytelling and enhancing 70% user engagement. Generated 80% similarity compared to original research paper results using a JSON Schema. Introduced features to draw 1 or 3 tarot cards for personalized and humorous readings, improving user experience.",
     "category": "Python, Flask",
     "githubLink": "https://github.com/dhruvpatel1205/Tarot-Weaving-Stories/"
   },
   {
     "id": 4,
     "title": "JavaFeast: order management application",
-    "description": "Designed Java applications for dining management, order handling, and generating receipts. Simplified deployment process Hibernate ORM and Apache Tomcat with Postgres in MVC model. Efficiently manipulated complex data schemas using DML statements for data addition, update & deletion. Achieved 95% accuracy in CRUD operation through the implementation of Java Persistence API (JPA) mechanism. Implemented JUNIT test cases covering approximately 30% of the code.",
+    "description": "• Designed a dining management application using Java, Hibernate ORM, and Apache Tomcat with Postgres DB in an MVC model that features 50% order handling and receipt generation, 30% of editing menu and applying discount. Efficiently got 95% accuracy in CRUD operations using Java Persistence API (JPA) and added 20% of history price update functionality with a price change of the product. Implemented unit tests covering 30% of the code with JUnit.",
     "category": "Java, Hibernate",
     "githubLink": "https://github.com/dhruvpatel1205/JavaFeast-Order-Management-Application"
   },
