@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Fake News Analysis using Machine Learning Algorithms",
     "description": "Achieved 94.47% of accuracy with models like KNN, Decision Tree, Random Forest, Gradient Boosting and Passive Aggression on a balanced dataset. Preprocessed and trained on a dataset with equal distribution of a Real (50.1%) and Fake (49.9%) news article. Utilized pandas, NumPy & sci-kit learn libraries for data visualization, preparation, and training.",
-    "category": "Python",
+    "category": "Python, ML",
     "githubLink": "https://github.com/dhruvpatel1205/FakeNewsAnalysis"
   },
   {
@@ -16,14 +16,14 @@
   {
     "id": 3,
     "title": "Tarot- Weaving Stories",
-    "description": "• Developed a RESTful API with Flask for interactive tarot-based storytelling and enhancing 70% user engagement. Generated 80% similarity compared to original research paper results using a JSON Schema. Introduced features to draw 1 or 3 tarot cards for personalized and humorous readings, improving user experience.",
+    "description": "Developed a RESTful API with Flask for interactive tarot-based storytelling and enhancing 70% user engagement. Generated 80% similarity compared to original research paper results using a JSON Schema. Introduced features to draw 1 or 3 tarot cards for personalized and humorous readings, improving user experience.",
     "category": "Python, Flask",
     "githubLink": "https://github.com/dhruvpatel1205/Tarot-Weaving-Stories/"
   },
   {
     "id": 4,
     "title": "JavaFeast: order management application",
-    "description": "• Designed a dining management application using Java, Hibernate ORM, and Apache Tomcat with Postgres DB in an MVC model that features 50% order handling and receipt generation, 30% of editing menu and applying discount. Efficiently got 95% accuracy in CRUD operations using Java Persistence API (JPA) and added 20% of history price update functionality with a price change of the product. Implemented unit tests covering 30% of the code with JUnit.",
+    "description": "Designed a dining management application using Java, Hibernate ORM, and Apache Tomcat with Postgres DB in an MVC model that features 50% order handling and receipt generation, 30% of editing menu and applying discount. Efficiently got 95% accuracy in CRUD operations using Java Persistence API (JPA) and added 20% of history price update functionality with a price change of the product. Implemented unit tests covering 30% of the code with JUnit.",
     "category": "Java, Hibernate",
     "githubLink": "https://github.com/dhruvpatel1205/JavaFeast-Order-Management-Application"
   },
@@ -31,7 +31,7 @@
     "id": 5,
     "title": "Investigation tool using regex",
     "description": "Developed a tool in Python to mitigate active DOS attacks using Regular Expression (regex). Optimized project deliverables by refining data models, improving accuracy and efficiency. Utilized Socket Programming API for tracking incoming packets, monitoring network traffic at a 95% success rate.",
-    "category": "Python",
+    "category": "Python, Regex",
     "githubLink": "https://github.com/dhruvpatel1205/Investigation-tool-using-regex"
   }
 ]

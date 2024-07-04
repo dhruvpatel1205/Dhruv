@@ -3,16 +3,7 @@ import projectsData from "../Data/projectsData.json";
 import ProjectPopup from "./ProjectPopup";
 
 const Projects = () => {
-  const [selectedProject, setSelectedProject] = useState(null);
   const [showAll, setShowAll] = useState(false);
-
-  const openPopup = (project) => {
-    setSelectedProject(project);
-  };
-
-  const closePopup = () => {
-    setSelectedProject(null);
-  };
 
   const toggleShowAll = () => {
     setShowAll(!showAll);
@@ -32,11 +23,10 @@ const Projects = () => {
             .map((project) => (
               <div key={project.id} className="h-full">
                 <div
-                  className="bg-gray-800 p-4 rounded-lg shadow cursor-pointer overflow-hidden hover:bg-opacity-50 transition-opacity duration-300"
+                  className="bg-gray-800 p-4 rounded-lg shadow hover:bg-opacity-50 transition-opacity duration-300 overflow-auto no-scrollbar"
                   style={{
                     height: "360px",
                   }}
-                  onClick={() => openPopup(project)}
                 >
                   <h2 className="text-lg font-semibold mb-2">
                     {project.title}
@@ -44,7 +34,14 @@ const Projects = () => {
                   <div className="text-sm text-gray-400 mb-2">
                     {project.category}
                   </div>
-                  <p className="text-gray-300 overflow-hidden">
+                  <div className="mb-2">
+                    <a href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-2 px-3 rounded-full">Github</a>
+                  </div>
+                  
+                  <p className="text-gray-300">
                     {project.description}
                   </p>
                 </div>
@@ -68,9 +65,6 @@ const Projects = () => {
           </button>
         )}
       </div>
-      {selectedProject && (
-        <ProjectPopup project={selectedProject} onClose={closePopup} />
-      )}
     </div>
   );
 };
