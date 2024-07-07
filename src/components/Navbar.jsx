@@ -100,10 +100,8 @@ export default function Navbar() {
               <div className="flex justify-center lg:justify-end">
           <a
             href="https://wise-moose-hfc1kf-dev-ed.trailblaze.my.salesforce.com/sfc/p/bm0000008Dkr/a/bm0000000dz3/16rahpQwYHgZeGG8Q3XJ1rfdbjcq0QtiiR0GDPNSxcE"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline">
-            Download Resume ⬇
+            className="bg-teal-500 hover:bg-teal-600 text-black font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">
+            Download Resume
           </a>
         </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">

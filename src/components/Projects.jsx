@@ -34,16 +34,13 @@ const Projects = () => {
                   <div className="text-sm text-gray-400 mb-2">
                     {project.category}
                   </div>
-                  <div className="mb-2">
-                    <a href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-2 px-3 rounded-full">Github</a>
-                  </div>
-                  
                   <p className="text-gray-300">
                     {project.description}
                   </p>
+                  <div className="mb-1 mt-3">
+                    <a href={project.githubLink}
+                      className="block bg-teal-800 text-white py-2 px-4 rounded-lg text-center hover:bg-gray-700 position:absolute margin-left:auto">Github</a>
+                  </div>
                 </div>
               </div>
             ))}
