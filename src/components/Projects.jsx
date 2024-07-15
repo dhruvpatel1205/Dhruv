@@ -31,7 +31,7 @@ const Projects = () => {
                   <h2 className="text-lg font-semibold mb-2">
                     {project.title}
                   </h2>
-                  <div className="text-sm text-gray-400 mb-2">
+                  <div className="text-sm text-orange-300 mb-2">
                     {project.category}
                   </div>
                   <p className="text-gray-300">

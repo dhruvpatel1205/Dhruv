@@ -15,16 +15,16 @@ const Experience = () => {
             <div key={experience.id} className="mb-8">
               <div className="flex items-center mb-2">
                 <div className="w-4 h-4 bg-white rounded-full mr-2"></div>
-                <div className="text-sm font-bold text-gray-500">
+                <div className="text-sm font-bold text-orange-300">
                   {experience.startDate} - {experience.endDate}
                 </div>
               </div>
               <div className="ml-6">
                 <h2 className="text-lg font-semibold">{experience.title}</h2>
-                <p className="text-gray-400 mb-2 test-sm">
+                <p className="text-blue-400 mb-2 test-sm">
                   {experience.company} - {experience.location}
                 </p>
-                <p className="text-gray-600">{experience.description}</p>
+                <p className="text-blue-100">{experience.description}</p>
               </div>
             </div>
           ))}

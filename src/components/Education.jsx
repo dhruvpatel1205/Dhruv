@@ -16,7 +16,7 @@ const Education = () => {
             <div key={education.id} className="mb-8">
               <div className="flex items-center mb-2">
                 <div className="w-4 h-4 bg-white rounded-full mr-2"></div>
-                <div className="text-sm font-bold text-gray-500">
+                <div className="text-sm font-bold text-orange-300">
                   {education.startDate} - {education.endDate}
                 </div>
               </div>
@@ -24,14 +24,14 @@ const Education = () => {
                 <h2 className="text-lg font-semibold">
                   {education.institution}
                 </h2>
-                <p className="text-gray-400 text-sm mb-2">
+                <p className="text-blue-400 text-sm mb-2">
                   {education.location}
                 </p>
 
-                <p className="text-gray-400 test-sm">
+                <p className="text-blue-100 test-sm">
                   {education.courceType} | {education.cource}
                 </p>
-                <p className="text-gray-400 mb-2 test-sm">{education.grade}</p>
+                <p className="text-blue-100 mb-2 test-sm">{education.grade}</p>
               </div>
             </div>
           ))}
