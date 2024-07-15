@@ -8,7 +8,7 @@
   { "name": "Spring", "proficiency": 85 },
   { "name": "Hibernate", "proficiency": 85 },
   { "name": "Flask", "proficiency": 85 },
-  { "name": "React", "proficiency": 85 },
+  { "name": "ReactJS", "proficiency": 85 },
   { "name": "AWS (RDS, S3, VPC, EC2, lambda)", "proficiency": 70 },
   { "name": "Salesforce Administartor", "proficiency": 85 },
   { "name": "Azure", "proficiency": 85 },
@@ -18,5 +18,6 @@
   { "name": "PostgreSQL", "proficiency": 85 },
   { "name": "PL/SQL", "proficiency": 85 },
   { "name": "Postman", "proficiency": 85 },
-  { "name": "Apache Tomcat", "proficiency": 85 }
+  { "name": "Apache Tomcat", "proficiency": 85 },
+  { "name": "JUNIT", "proficiency": 85 }
 ]
