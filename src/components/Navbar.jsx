@@ -99,7 +99,7 @@ export default function Navbar() {
               </div>
               <div className="flex justify-center lg:justify-end">
           <a
-            href="https://dhruvpatel.vercel.app/Resume.pdf"
+            href="https://dhruvpatel.vercel.app/Dhruv_Patel_Resume.pdf"
             //href="https://wise-moose-hfc1kf-dev-ed.trailblaze.my.salesforce.com/sfc/p/bm0000008Dkr/a/bm0000000dz3/16rahpQwYHgZeGG8Q3XJ1rfdbjcq0QtiiR0GDPNSxcE"
             className="bg-teal-500 hover:bg-teal-600 text-black font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">
             Download Resume
