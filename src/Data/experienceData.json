@@ -10,15 +10,6 @@
   },
   {
     "id": 2,
-    "title": "Software Developer Intern",
-    "company": "Kretoss Technology",
-    "location": "Ahmedabad, India",
-    "startDate": "June 2021",
-    "endDate": "December 2021",
-    "description": "Developed a scalable application using java, Spring boot framework and AWS. Created detailed wireframes, DFD’s, and process models for clear system design. Deployed application on AWS EC2 and integrated RDS instance and Postgres for seamless database hosting. Participated in review activity to check on the readability, accuracy, and efficiency of code."
-  },
-  {
-    "id": 3,
     "title": "Android Developer Intern",
     "company": "BrainyBeam Technologies Pvt. Ltd.",
     "location": "Ahmedabad, India",
