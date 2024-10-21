@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "title": "Software Engineer Intern",
+    "title": "Salesforce Developer",
     "company": "Bhaskaracharya Institute For Space Applications and Geo-Informatics",
     "location": "Gandhinagar, India",
-    "startDate": "January 2022",
+    "startDate": "January 2021",
     "endDate": "May 2022",
-    "description": "Optimized data structures and architecture design and improved project quality by 20%. Debugged 45% of software issues by collaborating with cross-functional teams during the SDLC. Delivered bi-weekly sprints 2 days ahead of schedule and increasing 20% efficiency in an Agile (Scrum) environment."
+    "description": "Managed & developed custom Salesforce apps using Apex, Lightning Web Components, trigger,and Bulk APIs to enhance custom built functionality. Optimized SOQL and SOSL queries, boosting performance by 25%. Added apex unit test classes averaging 80% of code coverage. Integrated with external product APIs via REST and SOAP for data transfer and automation. Collaborated with cross-functional teams to debug and resolve Salesforce issues during the SDLC. Participated in code reviews focused on DML efficiency and governor limit management. Delivered tasks in sprints by utilizing point & click tools in an Agile (Scrum) environment."
   },
   {
     "id": 2,
