@@ -121,9 +121,9 @@ const AboutPage = () => {
           <p className="text-lg mb-2 pl-4">I'm Dhruv Patel</p>
           <p className="text-blue-200 pl-4">
             Hi, I am a Graduate computer science student with 1+ years of professional 
-            experience developing cloud-based applications using Java and AWS, Python. 
+            experience developing Salesforce application. 
             Expertise in database management, Back-end & Front-end technologies and web development (HTML 5, CSS, JavaScript). 
-            Experience building software solutions in a collaborative environment with version control.
+            Experience building software solutions in a collaborative environment with version control(Github).
 
           </p>
         </div>
