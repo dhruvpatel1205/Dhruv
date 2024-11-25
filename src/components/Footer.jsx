@@ -15,7 +15,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
           >
-           Connect with me ✉️ 
+          @ Connect with me
           </a>
         </div>
       </div> 

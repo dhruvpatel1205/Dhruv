@@ -52,67 +52,89 @@ export default function Navbar() {
   }, []);
 
   return (
-    <Disclosure
-      as="nav"
-      id="myNavbar"
-      className="bg-black fixed top-0 w-full z-50"
-    >
+    <Disclosure as="nav" id="myNavbar" className="fixed top-0 w-full z-50">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-16 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                  <span className="absolute -inset-0.5" />
-                  <span className="sr-only">Open main menu</span>
-                  {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-                  ) : (
-                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
-                  )}
-                </Disclosure.Button>
+          <div className="relative">
+            {/*Gradient Background */}
+            <div className="absolute inset-0 bg-black bg-opacity-95">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 via-black to-blue-900/20">
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <ScrollLink
-                        key={item.name}
-                        to={item.href}
-                        spy={true}
-                        smooth={true}
-                        offset={-64}
-                        duration={500}
-                        className={classNames(
-                          currentSection === item.href
-                            ? "bg-gray-900 text-white cursor-pointer"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white cursor-pointer",
-                          "rounded-md px-3 py-2 text-base font-medium"
-                        )}
+
+              <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 relative">
+                <div className="relative flex h-16 items-center justify-between">
+                  <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+
+                    {/* Mobile menu button*/}
+                    <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                      <span className="absolute -inset-0.5" />
+                      <span className="sr-only">Open main menu</span>
+                      {open ? (
+                        <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                      ) : (
+                        <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                      )}
+                    </Disclosure.Button>
+                  </div>
+                  <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                    <div className="hidden sm:ml-6 sm:block">
+                      <div className="flex space-x-4">
+                        {navigation.map((item) => (
+                          <ScrollLink
+                            key={item.name}
+                            to={item.href}
+                            spy={true}
+                            smooth={true}
+                            offset={-64}
+                            duration={500}
+                            className={classNames(
+                              "relative rounded-md px-3 py-2 text-base font-medium transition-all duration-300 ease-in-out cursor-pointer",
+                              currentSection === item.href
+                                ? "text-white"
+                                : "text-gray-300 hover:text-white",
+                            )}
+                          >
+                            {item.name}
+                            {/* Animated underline */}
+                            <div
+                              className={classNames(
+                                "absolute bottom-0 left-0 h-0.5 w-full transform transition-all duration-300 ",
+                                currentSection === item.href
+                                  ? "bg-gradient-to-r from-blue-400 to-purple-400 scale-x-100"
+                                  : "bg-gradient-to-r from-blue-400 to-purple-400 scale-x-0 group-hover:scale-x-100"
+                              )}
+                            />
+                          </ScrollLink>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                    <a
+                      href="https://dhruvpatel.vercel.app/Dhruv_Patel_Resume.pdf"
+                      //href="https://wise-moose-hfc1kf-dev-ed.trailblaze.my.salesforce.com/sfc/p/bm0000008Dkr/a/bm0000000dz3/16rahpQwYHgZeGG8Q3XJ1rfdbjcq0QtiiR0GDPNSxcE"
+                      className="relative group overflow-hidden rounded-full">
+                      <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 transition-transform duration-300 group-hover:scale-105" />
+                      <div
+                        className="relative px-6 py-2 bg-black bg-opacity-90 text-white font-mono font-bold 
+            
+            transition-all duration-300 
+            before:absolute before:inset-0 before:bg-cyan-500/10 before:translate-y-full before:hover:translate-y-0 before:transition-transform before:duration-300
+            hover:scale-[1.02] hover:hover:shadow-[0_0_15px_rgba(34,211,238,0.1)] 
+            flex items-center gap-2 overflow-hidden group"
                       >
-                        {item.name}
-                      </ScrollLink>
-                    ))}
+                        <span className="text-cyan-500">&gt;</span>
+                        Resume
+                        <span className="absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
-              <div className="flex justify-center lg:justify-end">
-          <a
-            href="https://dhruvpatel.vercel.app/Dhruv_Patel_Resume.pdf"
-            //href="https://wise-moose-hfc1kf-dev-ed.trailblaze.my.salesforce.com/sfc/p/bm0000008Dkr/a/bm0000000dz3/16rahpQwYHgZeGG8Q3XJ1rfdbjcq0QtiiR0GDPNSxcE"
-            className="bg-teal-500 hover:bg-teal-600 text-black font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">
-            Download Resume
-          </a>
-        </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              
-              </div>
             </div>
           </div>
-
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+            <div className="space-y-1 px-2 pb-3 pt-2 bg-black bg-opacity-95">
               {navigation.map((item) => (
                 <ScrollLink
                   key={item.name}
@@ -122,10 +144,10 @@ export default function Navbar() {
                   offset={-64}
                   duration={500}
                   className={classNames(
+                    "block rounded-md px-3 py-2 text-lg font-medium transition-colors duration-300",
                     currentSection === item.href
-                      ? "bg-gray-900 text-white cursor-pointer"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white cursor-pointer",
-                    "block rounded-md px-3 py-2 text-lg font-medium"
+                      ? "bg-gradient-to-r from-blue-900/40 to-purple-900/40 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   )}
                 >
                   {item.name}
