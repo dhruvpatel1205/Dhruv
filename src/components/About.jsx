@@ -16,6 +16,7 @@ import stackOverflow from "../assets/socials/icons8-stack-overflow-480.png";
 import telegram from "../assets/socials/icons8-telegram-app-480.png";
 import twitter from "../assets/socials/icons8-twitterx-480-2.png";
 import discord from "../assets/socials/icons8-discord-480.png";
+import salesforce from "../assets/socials/icon8-salesforce-480.png"
 // import socialLinks from "../data/socialLinks.json";
 
 const profilePictures = [
@@ -54,6 +55,10 @@ const socialLinks = {
     icon: github,
     url: "https://github.com/dhruvpatel1205",
   },
+  salesforce: {
+    icon: salesforce,
+    url: "https://www.salesforce.com/trailblazer/dhruvpatel012",
+  },
   reddit: {
     icon: reddit,
     url: "https://www.reddit.com/user/dhruvolt/",
@@ -73,7 +78,7 @@ const socialLinks = {
   discord: {
     icon: discord,
     url: "https://discordapp.com/users/volt_012",
-  },
+  }
 };
 
 const AboutPage = () => {
