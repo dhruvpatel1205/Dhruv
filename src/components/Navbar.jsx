@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import CustomConnectButton from "./CustomConnectButton";
 import { Link as ScrollLink, Events } from "react-scroll";
 
 const navigation = [
@@ -57,7 +56,7 @@ export default function Navbar() {
         <>
           <div className="relative">
             {/*Gradient Background */}
-            <div className="absolute inset-0 bg-black bg-opacity-95">
+            <div className="relative inset-0 bg-black bg-opacity-70">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 via-black to-blue-900/20">
               </div>
 
