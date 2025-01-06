@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "title": "Salesforce Developer",
+    "title": "Software Developer",
     "company": "Bhaskaracharya Institute For Space Applications and Geo-Informatics",
     "location": "Gandhinagar, India",
     "startDate": "May 2021",
     "endDate": "May 2022",
-    "description": "Managed & developed custom Salesforce apps using Apex, Lightning Web Components, trigger,and Bulk APIs to enhance custom built functionality. Optimized SOQL and SOSL queries, boosting performance by 25%. Added apex unit test classes averaging 80% of code coverage. Integrated with external product APIs via REST and SOAP for data transfer and automation. Collaborated with cross-functional teams to debug and resolve Salesforce issues during the SDLC. Participated in code reviews focused on DML efficiency and governor limit management. Delivered tasks in sprints by utilizing point & click tools in an Agile (Scrum) environment."
+    "description": "Worked on building and maintaining an application using Python, to track the activity of the network using APIs. It is even used to capture, save and elaborate network information in a log file. ptimized database and system design and reduce database redundancy. Collaborated with cross-functional teams to resolve 35% of software issues and consistently delivered bi-weekly sprints in an agile environment. Created Wireframes, DFDs, Process models and ER-diagram for system, utilizing tool like draw.io & Lucidcharts. Participated in code reviews to ensure system clarity, readability, and efficiency."
   },
   {
     "id": 2,

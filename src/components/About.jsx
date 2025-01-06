@@ -129,7 +129,7 @@ const AboutPage = () => {
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed">
               A Graduate computer science student with 1+ years of professional
-              experience developing Salesforce application.
+              experience developing application.
               Expertise in database management, Back-end & Front-end technologies and web development (HTML 5, CSS, JavaScript).
               Experience building software solutions in a collaborative environment with version control(Github).
 

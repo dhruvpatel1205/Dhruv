@@ -2,14 +2,14 @@
   {
     "id": 1,
     "title": "Fake News Analysis using Machine Learning Algorithms",
-    "description": "Achieved 94.47% of accuracy with models like KNN, Decision Tree, Random Forest, Gradient Boosting and Passive Aggression on a balanced dataset. Preprocessed and trained on a dataset with equal distribution of a Real (50.1%) and Fake (49.9%) news article. Utilized pandas, NumPy & sci-kit learn libraries for data visualization, preparation, and training.",
+    "description": "Delivered 94.47% of highest accuracy with models like KNN, Decision Tree, Random Forest, Gradient Boosting & Passive Aggression on a balanced dataset. Preprocessed and trained on a dataset with equal distribution of a Real (50.1%) and Fake (49.9%) news article, used pandas, numpy & scikit-learn libraries for data visualization, preparation, and training.",
     "category": "Python, ML",
     "githubLink": "https://github.com/dhruvpatel1205/FakeNewsAnalysis"
   },
   {
     "id": 2,
-    "title": "Performance Evaluation of 5Greplay on 5G network",
-    "description": "Executed replay attacks using fuzzers to improve software verification for 5G security research. Analyzed pcap files using Wireshark on a live 5G network core protocol. Performed rigorous Test using multiple fuzzers on Open5GS and Free5GC to check system against unexpected inputs.",
+    "title": "Security Evaluation of 5Greplay Fuzzer on 5G network",
+    "description": "Executed replay attacks using Fuzzing techniques to identify and reduce potential security vulnerability and threats to 5G network. Analyzed pcap files using Wireshark on a live 5G core network & Performed positive and negative testing using multiple fuzzers on SuperMicro and Dell 5G Core framework to ensure system against inputs. Utilized 5Greplay Docker container & Bash commands in Linux environment to perform the experiments.",
     "category": "MS Project, 5G Security",
     "githubLink": "https://github.com/Montimage/5GReplay/releases"
   },
