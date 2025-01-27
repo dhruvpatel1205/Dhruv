@@ -128,10 +128,9 @@ const AboutPage = () => {
               I'm Dhruv Patel
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed">
-              A Graduate computer science student with 1+ years of professional
-              experience developing application.
-              Expertise in database management, Back-end & Front-end technologies and web development (HTML 5, CSS, JavaScript).
-              Experience building software solutions in a collaborative environment with version control(Github).
+              A computer science student graduate with a years of professional
+              experience developing applications.
+              Skilled in Back-end & Front-end, and database management. Experience building software solutions in a collaborative environment with version control(Github).
 
             </p>
           </div>

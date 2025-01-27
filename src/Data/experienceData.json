@@ -2,11 +2,11 @@
   {
     "id": 1,
     "title": "Software Developer",
-    "company": "Bhaskaracharya Institute For Space Applications and Geo-Informatics",
-    "location": "Gandhinagar, India",
+    "company": "Kretoss Technology",
+    "location": "Ahmedabad, India",
     "startDate": "May 2021",
     "endDate": "May 2022",
-    "description": "Worked on building and maintaining an application using Python, to track the activity of the network using APIs. It is even used to capture, save and elaborate network information in a log file. ptimized database and system design and reduce database redundancy. Collaborated with cross-functional teams to resolve 35% of software issues and consistently delivered bi-weekly sprints in an agile environment. Created Wireframes, DFDs, Process models and ER-diagram for system, utilizing tool like draw.io & Lucidcharts. Participated in code reviews to ensure system clarity, readability, and efficiency."
+    "description": "Worked on building and maintaining web application using Python and MySQL. Connected with client’s to understand, implement, and document business requirement. Optimized database and system design and reduce database redundancy. Collaborated with cross-functional teams to resolve 35% of software issues and consistently delivered bi-weekly sprints in an agile environment. Created Wireframes, DFDs, Process models and ER-diagram for system, utilizing tool like draw.io & Lucidcharts. Participated in code reviews to ensure system clarity, readability, and efficiency."
   },
   {
     "id": 2,
