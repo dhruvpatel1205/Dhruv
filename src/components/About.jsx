@@ -125,14 +125,17 @@ const AboutPage = () => {
           {/* About text Content */}
           <div className="text-left mb-8">
             <h1 className="text-2xl font-bold mb-4 bg-gradient-to-r from-red-100 to-blue-400 bg-clip-text text-transparent">
-              I'm Dhruv Patel
+              Ahoy!
             </h1>
-            <p className="text-gray-300 text-lg leading-relaxed">
-              A computer science student graduate with a years of professional
-              experience developing applications.
-              Skilled in Back-end & Front-end, and database management. Experience building software solutions in a collaborative environment with version control(Github).
-
-            </p>
+            <p className="text-white text-lg leading-relaxed">
+            I'm Dhruv,</p>
+            <span className="text-blue-300 text-lg leading-relaxed">A Coder;</span>
+            <span className="text-blue-600 text-lg leading-relaxed"> a Developer;</span>
+            <span className="text-blue-900 text-lg leading-relaxed"> a Programmer;</span>
+            <p className="text-gray-300 text-lg leading-relaxed font-italic;">
+            all of this in a human being with a "CAN DO" attitude. Learn more about my projects down there</p>
+            <p className="text-gray-300 text-lg font-bold">
+            Don't expect a machine learned guy here; I am just a simple Man not a superman(trained on some llm's).</p>
           </div>
 
           {/* Social icons */}
