@@ -135,7 +135,7 @@ const AboutPage = () => {
             <p className="text-gray-300 text-lg leading-relaxed font-italic;">
             all of this in a human being with a "CAN DO" attitude. Learn more about my projects down there</p>
             <p className="text-gray-300 text-lg font-bold">
-            Don't expect a machine learned guy here; I am just a simple Man not a superman(trained on some llm's).</p>
+            Don't expect a machine learned guy here; I am just a simple Man not a Humanoi'd(trained on some llm's).</p>
           </div>
 
           {/* Social icons */}
