@@ -43,17 +43,17 @@ const StyledButton = styled.button`
   }
 `;
 
-const ExampleButton = () => {
+const ExampleBut = () => {
   return (
     <ConnectKitButton.Custom>
-      {({ isConnected, show, truncatedAddress, ensName }) => {
+      {({ isConnected, show}) => {
         return (
           <StyledButton onClick={show}>
-            {isConnected ? ensName ?? truncatedAddress : "Resume Download ⬇️"}
+            {"Resume Download ⬇️"}
           </StyledButton>
         );
       }}
     </ConnectKitButton.Custom>
   );
 };
-export default ExampleButton;
+export default ExampleBut;
