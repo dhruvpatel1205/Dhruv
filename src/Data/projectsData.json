@@ -1,34 +1,48 @@
 [
   {
     "id": 1,
+    "title": "Tessie Commands",
+    "description": " App Developed using LWC for UI, Apex for Backend, OAuth 2.0 for Login & providing access, Screen Flow for user guide. An app that commands Tesla Car using API’s to start & stop car, open doors. Configured Named Credentials, Connected App's, Permission sets and auto refresh token handling for authnetication have been implemented in this project.",
+    "category": "Apex, LWC, Screen Flow",
+    "githubLink": "https://github.com/dhruvpatel1205/FakeNewsAnalysis"
+  },
+  {
+    "id": 2,
+    "title": "Event Cloud-Event Management System",
+    "description": "Micro project developed for managing event that has custom object of sponsor, event, session and attendee’s. Used Flow, Trigger & unit test class with 100% coverage that can Before-Save record updates, validates Same-Record, Cross-Object DML & SOQL for Retrieving Data. This project was built to demonstarte skills in trigger framework, Apex and Flow.",
+    "category": "Apex, Trigger, Flow",
+    "githubLink": "https://github.com/dhruvpatel1205/SFDX--EventCloud"
+  },
+  {
+    "id": 3,
     "title": "Fake News Analysis using Machine Learning Algorithms",
     "description": "Delivered 94.47% of highest accuracy with models like KNN, Decision Tree, Random Forest, Gradient Boosting & Passive Aggression on a balanced dataset. Preprocessed and trained on a dataset with equal distribution of a Real (50.1%) and Fake (49.9%) news article, used pandas, numpy & scikit-learn libraries for data visualization, preparation, and training.",
     "category": "Python, ML",
     "githubLink": "https://github.com/dhruvpatel1205/FakeNewsAnalysis"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Security Evaluation of 5Greplay Fuzzer on 5G network",
     "description": "Executed replay attacks using Fuzzing techniques to identify and reduce potential security vulnerability and threats to 5G network. Analyzed pcap files using Wireshark on a live 5G core network & Performed positive and negative testing using multiple fuzzers on SuperMicro and Dell 5G Core framework to ensure system against inputs. Utilized 5Greplay Docker container & Bash commands in Linux environment to perform the experiments.",
-    "category": "MS Project, 5G Security",
+    "category": "MS Research, Python, Publisher-IEEE",
     "githubLink": "https://github.com/Montimage/5GReplay/releases"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Tarot- Weaving Stories",
     "description": "Developed a RESTful API with Flask for interactive tarot-based storytelling and enhancing 70% user engagement. Generated 80% similarity compared to original research paper results using a JSON Schema. Introduced features to draw 1 or 3 tarot cards for personalized and humorous readings, improving user experience.",
     "category": "Python, Flask",
     "githubLink": "https://github.com/dhruvpatel1205/Tarot-Weaving-Stories/"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "JavaFeast: order management application",
     "description": "Designed a dining management application using Java, Hibernate ORM, and Apache Tomcat with Postgres DB in an MVC model that features 50% order handling and receipt generation, 30% of editing menu and applying discount. Efficiently got 95% accuracy in CRUD operations using Java Persistence API (JPA) and added 20% of history price update functionality with a price change of the product. Implemented unit tests covering 30% of the code with JUnit.",
     "category": "Java, Hibernate",
     "githubLink": "https://github.com/dhruvpatel1205/JavaFeast-Order-Management-Application"
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Investigation tool using regex",
     "description": "Developed a tool in Python to mitigate active DOS attacks using Regular Expression (regex). Optimized project deliverables by refining data models, improving accuracy and efficiency. Utilized Socket Programming API for tracking incoming packets, monitoring network traffic at a 95% success rate.",
     "category": "Python, Regex",

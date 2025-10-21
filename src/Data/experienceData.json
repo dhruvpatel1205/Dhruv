@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Software Developer",
-    "company": "Kretoss Technology",
-    "location": "Ahmedabad, India",
-    "startDate": "Jan 2020",
-    "endDate": "May 2022",
-    "description": "Worked on building and maintaining scalable web application using Python and MySQL Database. Connected with client’s to understand, implement, and document business requirement. Optimized database and system design and reduce database redundancy. Collaborated with cross-functional teams to resolve 35% of software issues and consistently delivered bi-weekly sprints in an agile environment. Created Wireframes, DFDs, Process models and ER-diagram for system, utilizing tool like draw.io & Lucidcharts. Participated in code reviews to ensure system clarity, readability, and efficiency with best practices. Developed REST & SOAP API’s with Flask for interactive pages and enhancing 70% user engagement. Introduced features with the microservice architecture ensuring uptime and user experience."
+    "title": "Salesforce Admin/Developer ",
+    "company": "One Tree Brands LLC",
+    "location": "Corona, CA",
+    "startDate": "Jul 2025",
+    "endDate": "Present",
+    "description": "Authored documentation on system architecture and developement processes, ensuring training for users. Integrated with external product APIs via REST and Flow’s for data transfer and automation, Mainly include Marketo, Docusign & Celigo. Implemented enhanced security using permission sets, groups and profiles to safeguard user data for 50 User Org. Architectured Screen, Record-triggered and Autolaunched Flow as per business requirement. Created Dynamic Dashboards and Reports for 30, 60, 90 (Days) and YTD sales for different product SKUs."
   },
   {
     "id": 2,
-    "title": "Android Developer Intern",
-    "company": "BrainyBeam Technologies Pvt. Ltd.",
+    "title": "Salesforce Developer ",
+    "company": "Kertoss Technology",
     "location": "Ahmedabad, India",
-    "startDate": "October 2020",
-    "endDate": "January 2021",
-    "description": " Built a Native Android Grocery application by collaborating with a mentor at the organization. Participated in developing App Screen and its workflow using Activity & Fragments. Implemented using Android architecture & Customized different widgets like Buttons, Toast, and dialogs."
+    "startDate": "Jun 2020",
+    "endDate": "May 2022",
+    "description": "Managed & developed custom scalable Salesforce apps using Apex, Lightning Web Components, trigger,and Bulk APIs to enhance custom built functionality in sales and service cloud for 150+ users. Optimized SOQL and SOSL queries, boosting performance by 20%. Added apex unit test classes averaging 80% of code coverage. Collaborated with cross-functional teams to debug and resolve Salesforce issues during the SDLC. Participated in code reviews where got feedbacks & focused on DML efficiency and governor limit management. Delivered tasks efficiently in sprints by utilizing point & click tools in an Agile (Scrum) environment. Presented sprint demo’s and supported system testing, UAT and production issues "
   }
 ]
