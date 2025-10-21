@@ -133,9 +133,9 @@ const AboutPage = () => {
             <span className="text-blue-600 text-lg leading-relaxed"> a Developer;</span>
             <span className="text-blue-900 text-lg leading-relaxed"> a Programmer;</span>
             <p className="text-gray-300 text-lg leading-relaxed font-italic;">
-            all of this in a human being with a "CAN DO" attitude. Learn more about my projects down there</p>
+            all of this in a human being with a "CAN DO" attitude. Learn more about my projects down here</p>
             <p className="text-gray-300 text-lg font-bold">
-            Don't expect a machine learned guy here; I am just a simple Man not a Humanoi'd(trained on some llm's).</p>
+            Don't expect a machine learned guy here; I am just a simple Man not a Humanoi'd (Though know's how to Build things using Grok & Gemini AI).</p>
             <p className="text-gray-300 text-lg font-bold">
             FunFact: Ranked among the top 1.1% of Call Of Duty: Mobile players.</p>
           </div>
